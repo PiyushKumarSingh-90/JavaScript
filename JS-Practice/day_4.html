@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 4</title>
+
+    <style>
+
+        .one
+        {
+            height:200px;
+            width:300px;
+            background-color: aquamarine;
+            transition:1s;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="one" id="one">
+        hello
+    </div>
+    <button onclick="dosomething()">perform</button>
+    
+
+    <script>
+        function dosomething()
+        {
+            document.getElementById("one").innerHTML="<h1>piyush k. singh</h1>"; 
+            document.getElementById("one").style.height="400px";
+            document.getElementById("one").style.backgroundColor="pink"; 
+            document.getElementById("one").style.marginLeft="40%";
+            document.getElementById("one").style.transform="rotate(720deg)"
+        }
+    </script>
+
+</body>
+</html>
